@@ -1,0 +1,13 @@
+{
+ "topic": "Testing an AI workflow builder end to end",
+ "question": "How to test an AI workflow builder end to end at low cost: real-integration test accounts, contract tests for each app, content checks (outputs not empty), persona-based scenario suites, regression gates, Cloudflare Code Mode / MCP sandboxing, and cheap model usage during tests?",
+ "queries": [
+  "mcp server testing",
+  "end to end testing ai agents",
+  "contract testing api",
+  "llm test harness"
+ ],
+ "urls": [
+  "https://blog.cloudflare.com/code-mode/"
+ ]
+}
