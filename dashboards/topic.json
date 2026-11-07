@@ -1,0 +1,19 @@
+{
+ "topic": "Reverse-engineering automation SaaS dashboards (n8n, Activepieces, Zapier, Make, Vertex AI Agent Builder)",
+ "question": "From public source code and public docs: exactly how do n8n, Activepieces, Zapier, Make and Google Vertex AI Agent Builder structure their dashboard (navigation, home, workflows list, run history, templates, connections/credentials, usage and billing pages, team/roles, settings) and their per-user API keys (key format and prefix, scopes, hashing at rest, show-once, rotation/revoke, last-used, rate limits per plan)? List concrete file paths, routes, data models and plan limits.",
+ "queries": [
+  "n8n api key settings",
+  "activepieces api keys",
+  "activepieces billing usage",
+  "n8n usage and plan",
+  "api key hashing prefix"
+ ],
+ "urls": [
+  "https://docs.n8n.io/api/authentication/",
+  "https://www.activepieces.com/docs/endpoints/overview",
+  "https://help.zapier.com/hc/en-us/articles/8496181725453",
+  "https://cloud.google.com/vertex-ai/generative-ai/docs/agent-builder/overview",
+  "https://github.com/n8n-io/n8n/tree/master/packages/cli/src/services",
+  "https://github.com/activepieces/activepieces/tree/main/packages/server/api/src/app"
+ ]
+}
